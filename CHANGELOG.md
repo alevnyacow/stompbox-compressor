@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v1.2.0...v2.0.0) (2026-04-15)
+
+
+### Features
+
+* extracted spawners ([8b21655](https://github.com/alevnyacow/stompbox-compressor/commit/8b21655e6bceffda04376ee2b7fe6cc30d71a17d))
+
+
+### BREAKING CHANGES
+
+* new contracts
+
 # [1.2.0](https://github.com/alevnyacow/stompbox-compressor/compare/v1.1.0...v1.2.0) (2026-04-15)
 
 
