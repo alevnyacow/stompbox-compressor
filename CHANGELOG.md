@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/alevnyacow/stompbox-compressor/compare/v1.1.0...v1.2.0) (2026-04-15)
+
+
+### Features
+
+* new contracts ([d0ce6f5](https://github.com/alevnyacow/stompbox-compressor/commit/d0ce6f5d05f248ca33769e8a7854ed3d049e7a17))
+
 # [1.1.0](https://github.com/alevnyacow/stompbox-compressor/compare/v1.0.1...v1.1.0) (2026-04-15)
 
 
