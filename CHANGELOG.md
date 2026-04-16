@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.0.1...v3.1.0) (2026-04-16)
+
+
+### Features
+
+* throw, throwWithMessage ([008a76f](https://github.com/alevnyacow/stompbox-compressor/commit/008a76fc867356b948eaa8c6b6349cd9d18bfddf))
+
 ## [3.0.1](https://github.com/alevnyacow/stompbox-compressor/compare/v3.0.0...v3.0.1) (2026-04-16)
 
 
