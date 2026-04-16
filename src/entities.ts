@@ -1,4 +1,9 @@
 import z, { ZodType } from 'zod'
+import { Errors } from './errors'
+
+enum EntityErrors {
+    INVALID_CREATION_PAYLOAD = 'ENTITY___INVALID_CREATION_PAYLOAD'
+}
 
 export const Entity = <T extends ZodType>(schema: T) => {
     class CompressorEntity {
@@ -7,7 +12,11 @@ export const Entity = <T extends ZodType>(schema: T) => {
         public readonly model: z.infer<T>
 
         constructor(model: z.infer<T>) {
-            this.model = schema.parse(model)
+            const parsedModel = schema.safeParse(model)
+            if (!parsedModel.success) {
+                Errors(EntityErrors).throw('INVALID_CREATION_PAYLOAD', parsedModel.error)
+            }
+            this.model = parsedModel.data
         }
     }
 
