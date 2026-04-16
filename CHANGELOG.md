@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.2.0...v3.3.0) (2026-04-16)
+
+
+### Features
+
+* added entity ([93f9678](https://github.com/alevnyacow/stompbox-compressor/commit/93f9678673a93c208fff8627b52dd73c055cf400))
+
 # [3.2.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.1.0...v3.2.0) (2026-04-16)
 
 
