@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.1.0...v3.2.0) (2026-04-16)
+
+
+### Features
+
+* strict code ([f4332f7](https://github.com/alevnyacow/stompbox-compressor/commit/f4332f7fbef556f6a40aca8033ba397b33eeed01))
+
 # [3.1.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.0.1...v3.1.0) (2026-04-16)
 
 
