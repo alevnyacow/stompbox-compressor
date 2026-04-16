@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/alevnyacow/stompbox-compressor/compare/v3.0.0...v3.0.1) (2026-04-16)
+
+
+### Bug Fixes
+
+* removed old errors ([308ad79](https://github.com/alevnyacow/stompbox-compressor/commit/308ad795d04015060a6396fea76fe094ed716fac))
+
 # [3.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v2.0.0...v3.0.0) (2026-04-16)
 
 
