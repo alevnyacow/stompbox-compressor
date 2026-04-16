@@ -16,7 +16,7 @@ export const Entity = <T extends ZodType>(schema: T) => {
             if (!parsedModel.success) {
                 Errors(EntityErrors).throw('INVALID_CREATION_PAYLOAD', parsedModel.error)
             }
-            this.model = parsedModel.data
+            this.model = parsedModel.data!
         }
     }
 
