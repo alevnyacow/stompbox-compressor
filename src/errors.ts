@@ -1,7 +1,7 @@
 export const Errors = <ErrorCodes extends Record<string, string>>(codes: ErrorCodes) => {
     class CompressorError {
         public constructor(
-            public readonly code: string,
+            public readonly code: ErrorCodes[keyof ErrorCodes],
             public readonly details: any,
             public readonly message: string | undefined
         ) {}
