@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v2.0.0...v3.0.0) (2026-04-16)
+
+
+### Features
+
+* errors ([1a211ce](https://github.com/alevnyacow/stompbox-compressor/commit/1a211ce161a02636874417c0275433097f97fca5))
+
+
+### BREAKING CHANGES
+
+* new contracts
+
 # [2.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v1.2.0...v2.0.0) (2026-04-15)
 
 
