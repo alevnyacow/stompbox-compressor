@@ -1,3 +1,11 @@
+## [3.3.1](https://github.com/alevnyacow/stompbox-compressor/compare/v3.3.0...v3.3.1) (2026-04-16)
+
+
+### Bug Fixes
+
+* build ([27fe7aa](https://github.com/alevnyacow/stompbox-compressor/commit/27fe7aa22905cf5ae41515dd63831bc863543e4d))
+* unified errors ([0e06a0a](https://github.com/alevnyacow/stompbox-compressor/commit/0e06a0a3cddf0bac7a29ef765113c76c4c32aaac))
+
 # [3.3.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.2.0...v3.3.0) (2026-04-16)
 
 
