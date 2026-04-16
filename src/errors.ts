@@ -14,6 +14,14 @@ export const Errors = <ErrorCodes extends Record<string, string>>(codes: ErrorCo
             return new CompressorError(codes[key], details, message)
         }
 
+        static throw = (key: keyof ErrorCodes, details?: any) => {
+            throw CompressorError.create(key, details)
+        }
+
+        static throwWithMessage = ({ key, message }: { key: keyof ErrorCodes, message: string }, details?: any) => {
+            throw CompressorError.createWithMessage({ key, message }, details)
+        }
+
         static checkInstance = (target: unknown, key?: keyof ErrorCodes): target is CompressorError => {
             if (!target) {
                 return false
