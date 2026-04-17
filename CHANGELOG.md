@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.3.1...v4.0.0) (2026-04-17)
+
+
+### Features
+
+* added limiter ([c57b7c2](https://github.com/alevnyacow/stompbox-compressor/commit/c57b7c2a50c6429baf3e0c979fedfe03e7026517))
+
+
+### BREAKING CHANGES
+
+* changed contracts
+
 ## [3.3.1](https://github.com/alevnyacow/stompbox-compressor/compare/v3.3.0...v3.3.1) (2026-04-16)
 
 
