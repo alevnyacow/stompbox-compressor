@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v4.0.0...v5.0.0) (2026-04-17)
+
+
+### Features
+
+* CompressorEntity, CompressorValueObject ([33697f2](https://github.com/alevnyacow/stompbox-compressor/commit/33697f2e204e8bc3f7edf8211c273880166c9ad4))
+
+
+### BREAKING CHANGES
+
+* new contracts
+
 # [4.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v3.3.1...v4.0.0) (2026-04-17)
 
 

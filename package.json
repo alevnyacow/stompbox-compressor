@@ -1,6 +1,6 @@
 {
   "name": "@stompbox/compressor",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/alevnyacow/stompbox-compressor.git"
