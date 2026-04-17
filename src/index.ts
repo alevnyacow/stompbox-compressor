@@ -16,7 +16,7 @@ export const Entity = <
     id: id ?? z.string().nonempty() as Id,
   })
 
-  abstract class Entity {
+  abstract class EntityClass {
     public static schema = extendedSchema
 
     public readonly model: Readonly<z.infer<typeof extendedSchema>>
@@ -40,7 +40,7 @@ export const Entity = <
     }
   }
 
-  return Entity
+  return EntityClass
 }
 
 export const ValueObject = <
@@ -48,7 +48,7 @@ export const ValueObject = <
 >(
   schema: Shape
 ) => {
-  abstract class ValueObject {
+  abstract class ValueObjectClass {
     public static schema = schema
 
     public readonly model: Readonly<z.infer<typeof schema>>
@@ -77,5 +77,5 @@ export const ValueObject = <
     }
   }
 
-  return ValueObject
+  return ValueObjectClass
 }
