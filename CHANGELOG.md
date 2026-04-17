@@ -1,3 +1,10 @@
+# [5.2.0](https://github.com/alevnyacow/stompbox-compressor/compare/v5.1.0...v5.2.0) (2026-04-17)
+
+
+### Features
+
+* limiter errors in value object ([cf6c686](https://github.com/alevnyacow/stompbox-compressor/commit/cf6c68643db3de776ca1fd79ac1dff6fa8ae3cf1))
+
 # [5.1.0](https://github.com/alevnyacow/stompbox-compressor/compare/v5.0.1...v5.1.0) (2026-04-17)
 
 
