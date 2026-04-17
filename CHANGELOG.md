@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/alevnyacow/stompbox-compressor/compare/v5.0.0...v5.0.1) (2026-04-17)
+
+
+### Bug Fixes
+
+* removed "private-public" field _data ([65a3c6b](https://github.com/alevnyacow/stompbox-compressor/commit/65a3c6bc74eca9c04c47f4d21bd97706bb7ed42b))
+
 # [5.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v4.0.0...v5.0.0) (2026-04-17)
 
 
