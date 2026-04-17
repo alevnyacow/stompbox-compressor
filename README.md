@@ -1,23 +1,61 @@
-# Rslib project
+# Compressor
 
-## Setup
+Framework-agnostic plug-n-play entities and value objects.
 
-Install the dependencies:
+## Entity example
 
-```bash
-npm install
+```ts
+import { Entity } from '@stompbox/compressor'
+import z from 'zod'
+
+class User extends Entity(
+    z.object({ 
+        name: z.string().nonempty(), 
+        surname: z.string().nonempty()
+    })
+) { }
+
+type UserModel = User['model']
+
+try {
+    // autocomplete and runtime zod validation
+    const test = new User({
+        id: 'user-1',
+        name: '',
+        surname: ''
+    })
+} catch(e) {
+    console.error(e)
+}
+
+const user = new User({ 
+    id: 'user-1', 
+    name: 'First', 
+    surname: 'User' 
+})
+
+const { id, name, surname } = user.model
+
 ```
 
-## Get started
+## Value object example
 
-Build the library:
+```ts
+import { ValueObject } from '@stompbox/compressor'
 
-```bash
-npm run build
-```
+class PositiveInteger extends ValueObject(
+    z.int().positive()
+) { }
 
-Build the library in watch mode:
+type PositiveIntegerModel = PositiveInteger['model']
 
-```bash
-npm run dev
+try {
+    // autocomplete and runtime zod validation
+    const test = new PositiveInteger(-4)
+} catch(e) {
+    console.error(e)
+}
+
+const positiveInteger = new PositiveInteger(5)
+console.log(positiveInteger.model) // 5
 ```

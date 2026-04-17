@@ -5,7 +5,7 @@ export class CompressorError extends Limiter({
     InvalidCreationPayload: 'COMPRESSOR_INVALID_CREATION_PAYLOAD'
 } as const) { }
 
-export const CompressorEntity = <
+export const Entity = <
   Shape extends ZodRawShape,
   Id extends ZodString | ZodNumber = ZodString
 >(
@@ -43,7 +43,7 @@ export const CompressorEntity = <
   return Entity
 }
 
-export const CompressorValueObject = <
+export const ValueObject = <
   Shape extends ZodType,
 >(
   schema: Shape

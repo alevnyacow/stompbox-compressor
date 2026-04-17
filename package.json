@@ -1,6 +1,8 @@
 {
   "name": "@stompbox/compressor",
   "version": "5.2.0",
+  "description": "Framework-agnostic plug-n-play entities and value objects.",
+  "keywords": ["ddd", "domain driven", "domain-driven", "entity", "value object", "invariant"],
   "repository": {
     "type": "git",
     "url": "https://github.com/alevnyacow/stompbox-compressor.git"
