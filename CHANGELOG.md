@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/alevnyacow/stompbox-compressor/compare/v5.0.1...v5.1.0) (2026-04-17)
+
+
+### Features
+
+* limiter error in entity ([5aba0a9](https://github.com/alevnyacow/stompbox-compressor/commit/5aba0a91305579fad32a561741a19430eca336e1))
+
 ## [5.0.1](https://github.com/alevnyacow/stompbox-compressor/compare/v5.0.0...v5.0.1) (2026-04-17)
 
 
