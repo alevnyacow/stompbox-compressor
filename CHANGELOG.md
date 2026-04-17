@@ -1,3 +1,15 @@
+# [6.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v5.2.0...v6.0.0) (2026-04-17)
+
+
+### Features
+
+* renaming, readme ([be9261a](https://github.com/alevnyacow/stompbox-compressor/commit/be9261a9aba60309641a1d2385de6550614ae6b1))
+
+
+### BREAKING CHANGES
+
+* new contract
+
 # [5.2.0](https://github.com/alevnyacow/stompbox-compressor/compare/v5.1.0...v5.2.0) (2026-04-17)
 
 
