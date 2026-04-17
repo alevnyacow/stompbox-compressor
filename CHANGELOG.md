@@ -1,3 +1,10 @@
+## [6.0.1](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.0...v6.0.1) (2026-04-17)
+
+
+### Bug Fixes
+
+* more precise naming ([74bb9a7](https://github.com/alevnyacow/stompbox-compressor/commit/74bb9a7c8e7095a4714a867e2ab0ddae20ec990d))
+
 # [6.0.0](https://github.com/alevnyacow/stompbox-compressor/compare/v5.2.0...v6.0.0) (2026-04-17)
 
 
