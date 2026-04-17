@@ -41,5 +41,8 @@
   },
   "peerDependencies": {
     "zod": ">=3 <5"
+  },
+  "dependencies": {
+    "@stompbox/limiter": "^4.2.1"
   }
 }
