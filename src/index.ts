@@ -30,9 +30,10 @@ export const CompressorEntity = <
             return `${x.message}${path}`
         })
 
-        const fields = Object.fromEntries(Object.entries(fieldErrors).map(([key, errors]) => [key, errors.join(', ')]))
+        const fields = Object.fromEntries(Object.entries(fieldErrors).map(([key, errors]) => [key, errors!.join(', ')]))
         const form = formErrors.length ? { generalErrors: formErrors.join(', ') } : {}
 
+        // @ts-ignore
         throw new CompressorError('InvalidCreationPayload', { ...fields, ...form })
       }
       this.model = Object.freeze(data)
