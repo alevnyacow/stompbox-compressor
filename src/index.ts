@@ -14,7 +14,7 @@ export const CompressorEntity = <
   abstract class Entity {
     public static schema = extendedSchema
 
-    private readonly _data: z.infer<typeof extendedSchema>
+    public readonly _data: z.infer<typeof extendedSchema>
 
     constructor(model: z.infer<typeof extendedSchema>) {
       const parsedModel = extendedSchema.parse(model)
@@ -37,7 +37,7 @@ export const CompressorValueObject = <
   abstract class ValueObject {
     public static schema = schema
 
-    private readonly _data: z.infer<typeof schema>
+    public readonly _data: z.infer<typeof schema>
 
     constructor(model: z.infer<typeof schema>) {
       const parsedModel = ValueObject.schema.parse(model)
