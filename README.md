@@ -1,6 +1,6 @@
 # Compressor
 
-Framework-agnostic plug-n-play entities and value objects.
+Framework-agnostic plug-and-play entities and value objects.
 
 ## Entity example
 
