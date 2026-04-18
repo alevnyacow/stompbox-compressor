@@ -1,5 +1,6 @@
 import z, { ZodNumber, ZodObject, ZodRawShape, ZodString } from "zod"
 import { CompressorError } from "./errors"
+import { zodErrorDetails } from '@stompbox/limiter/zod'
 
 export const Entity = <
   Shape extends ZodRawShape,
@@ -21,15 +22,7 @@ export const Entity = <
       const { success, data, error } = extendedSchema.safeParse(model)
       
       if (!success) {
-        const { fieldErrors, formErrors }  = z.flattenError<any, string>(error, x => {
-            const path = x.path.length > 1 ? ` at ${x.path.slice(1).join('.')}` : ''
-            return `${x.message}${path}`
-        })
-
-        const fields = Object.fromEntries(Object.entries(fieldErrors).map(([key, errors]) => [key, errors!.join(', ')]))
-        const form = formErrors.length ? { generalErrors: formErrors.join(', ') } : {} as { generalErrors: string[] } | {}
-
-        throw new CompressorError('InvalidCreationPayload', { ...fields, ...form })
+        throw new CompressorError('InvalidCreationPayload', zodErrorDetails(error))
       }
       this.model = Object.freeze(data)
     }

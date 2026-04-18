@@ -52,6 +52,6 @@
     "zod": ">=3 <5"
   },
   "dependencies": {
-    "@stompbox/limiter": "^4.2.1"
+    "@stompbox/limiter": "^4.4.0"
   }
 }
