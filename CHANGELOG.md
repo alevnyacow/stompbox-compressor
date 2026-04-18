@@ -1,3 +1,10 @@
+## [6.0.4](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.3...v6.0.4) (2026-04-18)
+
+
+### Bug Fixes
+
+* zodErrorDetails from limiter instead of duplicating logic ([894a43c](https://github.com/alevnyacow/stompbox-compressor/commit/894a43cd89ee936eee496f6d0f9854b1b171334a))
+
 ## [6.0.3](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.2...v6.0.3) (2026-04-18)
 
 
