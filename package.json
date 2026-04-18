@@ -1,6 +1,6 @@
 {
   "name": "@stompbox/compressor",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "Framework-agnostic plug-and-play entities and value objects.",
   "keywords": [
     "ddd",

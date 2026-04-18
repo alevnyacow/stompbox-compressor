@@ -1,3 +1,10 @@
+## [6.0.3](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.2...v6.0.3) (2026-04-18)
+
+
+### Bug Fixes
+
+* refactoring - splitted code in multiple files ([43fb86c](https://github.com/alevnyacow/stompbox-compressor/commit/43fb86ccddc9e98ce9e3cbc11f2fd97b517715eb))
+
 ## [6.0.2](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.1...v6.0.2) (2026-04-17)
 
 
