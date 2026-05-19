@@ -1,6 +1,6 @@
 # Compressor
 
-Framework-agnostic plug-and-play entities and value objects.
+Framework-agnostic entities, value objects, and events.
 
 ## Entity example
 
@@ -58,4 +58,25 @@ try {
 
 const positiveInteger = new PositiveInteger(5)
 console.log(positiveInteger.model) // 5
+```
+
+## Events example
+
+```ts
+import EventEmitter from 'events'
+import { Event } from '@stompbox/compressor'
+
+const emitter = new EventEmitter()
+
+class NumericEvent extends Event<number>() {}
+
+NumericEvent.handleInEmitter(emitter, (x) => {
+    console.log('fired ' + x)
+})
+
+const e = new NumericEvent(10)
+
+e.fireInEmitter(emitter)
+
+// fired 10 will be logged
 ```
