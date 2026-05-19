@@ -1,6 +1,7 @@
 {
     "name": "@stompbox/compressor",
     "version": "6.1.1",
+    "license": "MIT",
     "description": "Framework-agnostic entities, value objects, and events.",
     "keywords": [
         "ddd",
