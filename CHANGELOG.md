@@ -1,3 +1,10 @@
+## [6.1.1](https://github.com/alevnyacow/stompbox-compressor/compare/v6.1.0...v6.1.1) (2026-05-19)
+
+
+### Bug Fixes
+
+* added readme description for events, changed description ([14c1bd2](https://github.com/alevnyacow/stompbox-compressor/commit/14c1bd27bcdc606257133142ebbb72e3142d2ad6))
+
 # [6.1.0](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.4...v6.1.0) (2026-05-19)
 
 
