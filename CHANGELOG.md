@@ -1,3 +1,10 @@
+## [6.1.2](https://github.com/alevnyacow/stompbox-compressor/compare/v6.1.1...v6.1.2) (2026-05-19)
+
+
+### Bug Fixes
+
+* added license ([d385c47](https://github.com/alevnyacow/stompbox-compressor/commit/d385c4783425065cd23e2df546a2d38689a3cb59))
+
 ## [6.1.1](https://github.com/alevnyacow/stompbox-compressor/compare/v6.1.0...v6.1.1) (2026-05-19)
 
 
