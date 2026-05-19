@@ -1,3 +1,10 @@
+# [6.1.0](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.4...v6.1.0) (2026-05-19)
+
+
+### Features
+
+* added Events ([b179dd3](https://github.com/alevnyacow/stompbox-compressor/commit/b179dd3c72935c5328ea96c6116d776c3008e2c8))
+
 ## [6.0.4](https://github.com/alevnyacow/stompbox-compressor/compare/v6.0.3...v6.0.4) (2026-04-18)
 
 
